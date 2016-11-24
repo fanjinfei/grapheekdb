@@ -1,0 +1,6 @@
+Notes to backend implementors :
+==============================
+
+- TODO : Explain by example how to subclass
+- WARNING : Never test your backend class against an existing database, data could be lost
+- I assert that the Graph Database will be the sole KVS user

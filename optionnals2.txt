@@ -1,0 +1,5 @@
+# Optionnal dependencies for Python 2
+
+http://fallabs.com/kyotocabinet/pythonlegacypkg/kyotocabinet-python-legacy-1.18.tar.gz
+lmdb
+networkx
