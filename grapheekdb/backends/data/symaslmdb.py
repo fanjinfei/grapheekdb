@@ -74,6 +74,8 @@ class LmdbGraph(BaseGraph):
         k = key
         if PYTHON3:  # pragma : no cover
             k = bytes(k, encoding='utf8')
+        else:
+            k = k.encode('utf-8')
         txn.put(k, msgpack.dumps(value, encoding='utf8'))
 
     def _bulk_set(self, txn, updates):
@@ -84,6 +86,8 @@ class LmdbGraph(BaseGraph):
         k = key
         if PYTHON3:  # pragma : no cover
             k = bytes(k, encoding='utf8')
+        else:
+            k = k.encode('utf-8')
         txn.delete(k)
 
     def _bulk_remove(self, txn, keys):
