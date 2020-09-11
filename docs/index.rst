@@ -4,7 +4,7 @@ GrapheekDB :
 ============
 
 
-.. image:: /img/presentation.png
+.. image:: /docs/img/presentation.png
    :width: 100%
 
 Getting started :
