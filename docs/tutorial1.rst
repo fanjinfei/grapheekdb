@@ -88,7 +88,7 @@ If, as recommended, you use IPython and GraphViz Magics extension, you can see t
 
 It should look like :
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph1.png
+.. image:: /docs/img/graph1.png
    :width: 100%
 
 Let's explain the code line :
@@ -114,7 +114,7 @@ Now let's add persons
 
 Now the graph looks like :
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph2.png
+.. image:: /docs/img/graph2.png
    :width: 100%
 
 *Note for readers : I know this is bit small, but it will be more readable when we'll start to filter nodes or create edges*
@@ -138,7 +138,7 @@ It appeared that some persons bought some books, let's save this information in 
 
 Now the graph looks like :
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph3.png
+.. image:: /docs/img/graph3.png
    :width: 100%
 
 So far, person4 didn't buy any books but it appears he saw the 1st book, let's add this information :
@@ -155,7 +155,7 @@ Hmmm, I'd like to see which actions persons did
 
 This gives :
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph4.png
+.. image:: /docs/img/graph4.png
    :width: 100%
 
 **That's cool, isn't it ? :)**

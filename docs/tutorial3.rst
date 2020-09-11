@@ -99,7 +99,7 @@ Example :
 
     %dotobj g.V(kind='person').outV().dot('name')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph1.png
+.. image:: /docs/img/graph1.png
    :width: 100%
 
 Hum, this is not very interesting : we got the very same image as part1/1st image
@@ -116,7 +116,7 @@ Let's try something more complicated :
 
     %dotobj g.V(kind='person', name__contains='m').outE(action='bought').dot('name', 'action')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph10.png
+.. image:: /docs/img/graph10.png
    :width: 80%
 
 There's more to explain for this example :
@@ -167,7 +167,7 @@ I guess you already guessed (or even test) it, here is an example :
 
     %dotobj person4.outE(action='saw').outV().inE(action='bought').inV().dot('name')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph11.png
+.. image:: /docs/img/graph11.png
    :width: 30%
 
 This example is far more interesting than the previous ones as it brings us not far away from the "collaborative filtering recommendation engine" :
@@ -213,7 +213,7 @@ So far, we have similar users, now, it's easy to get recommended books by doing 
 
 Which gives :
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph12.png
+.. image:: /docs/img/graph12.png
    :width: 100%
 
 Previous query gives us "similar users", adding .out_(action='bought') gives us books that were bought by those similar users.
@@ -267,7 +267,7 @@ Which should output :
 
 At this step, you may think **"this graph database is totally crappy"** because the previous image showed us :
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph12.png
+.. image:: /docs/img/graph12.png
    :width: 100%
 
 And obviously, we can only see 5 nodes and not 7 !!!
@@ -276,7 +276,7 @@ Well, in fact, **this is not a bug, this is a feature**, let's see again the com
 
 **Graph :**
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph4.png
+.. image:: /docs/img/graph4.png
    :width: 100%
 
 **Query :**

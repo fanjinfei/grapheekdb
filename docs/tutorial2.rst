@@ -158,7 +158,7 @@ As it is an iterator - like g.V() - we can use .dot method to vizualise the grap
 
     %dotobj g.V(kind='book').dot('name')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/graph1.png
+.. image:: /docs/img/graph1.png
    :width: 100%
 
 Let's try with persons :
@@ -168,7 +168,7 @@ Let's try with persons :
     %dotobj g.V(kind='person').dot('name')
 
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img//graph5.png
+.. image:: /docs/img//graph5.png
    :width: 50%
 
 Let's try to add a filter on another field :
@@ -177,7 +177,7 @@ Let's try to add a filter on another field :
 
     %dotobj g.V(kind='book', thema='programming').dot('name')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img//graph6.png
+.. image:: /docs/img//graph6.png
    :width: 50%
 
 Lookups can be more complex :
@@ -186,7 +186,7 @@ Lookups can be more complex :
 
     %dotobj g.V(name__contains='python').dot('name')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img//graph7.png
+.. image:: /docs/img//graph7.png
    :width: 50%
 
 Let's try something else : we will look for every name that contains 'a', whatever kind it is :
@@ -195,7 +195,7 @@ Let's try something else : we will look for every name that contains 'a', whatev
 
     %dotobj g.V(name__contains='a').dot('name')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img//graph8.png
+.. image:: /docs/img//graph8.png
    :width: 60%
 
 Hey, what happens ? Why do we see some edges ? We only wanted nodes...
@@ -213,7 +213,7 @@ So far, we mainly focused on nodes, but in fact, it is also possible to filter o
 
     %dotobj g.E(action='saw').dot('name', 'action')
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img//graph9.png
+.. image:: /docs/img//graph9.png
    :width: 20%
 
 Isn't that cool ?
