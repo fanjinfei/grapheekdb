@@ -4,7 +4,7 @@ GrapheekDB :
 ============
 
 
-.. image:: https://bitbucket.org/nidusfr/grapheekdb/raw/default/docs/img/presentation.png
+.. image:: /img/presentation.png
    :width: 100%
 
 Getting started :
